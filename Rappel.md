@@ -61,3 +61,95 @@ javascript est une implémentation :
 -  ES6 / ES2015 : 
 ...
 - ES10 / ES2019
+
+### LET :
+let remplace var, mais il est scopé au niveau du bloc de code
+
+### CONST : 
+déclation de la constante :
+pas possible sans lui attribuer une valeur :
+scopé au niveau du bloc de code
+
+const est mutable : modifiable 
+la seule chose pas changeable est le lin mémoire (le pointeur ou ref)
+
+S'obliger à mettre des const : plutot que des let :
+
+Let pour des boucles for, et concaténation de chaines
+
+### les classes :
+
+class , extends {
+
+    construtor
+
+    super (parent)
+}
+
+const dragon = new Dragon('lol');
+
+
+### template STRINGS
+
+" et ' : initialement : pour les chaines decharactères
+
+maintenant nouveau `
+
+
+### Destructuring
+
+- déclaration de variable plus sexy
+
+fonction pour déclarer un variable et un tableau(attention à l'ordre)
+
+
+### SPREAD 
+
+Explose les paramètre d'un tableau dans un objet ou tableau
+
+mafoncion(...variable)
+
+concatène aussi un tableau
+
+fusionne un objet
+
+
+### REST
+
+récupère les paramètre d'une fonction sous forme d'un tableau
+
+
+function maFunction(...param){
+
+}
+maFunction('1', '2');
+
+
+### Arrow functions
+
+- déclaration de fonction simplifiés
+- return implicite
+- scope préservé
+
+
+var add = function(a,b) {
+    return a + b;
+}
+
+const add = (a,b) => a + b;
+
+
+const square = x => x * x; // si un seul paramètre, pas besoin de parenthèse
+
+
+### scope arrow function
+
+dans l'exemple, c'est le link
+
+
+### valeur par défaut
+
+possibilité de mettre une valeur par défaut
+ES5 
+
+lastname = lastname || 'lol';
