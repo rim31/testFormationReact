@@ -153,3 +153,68 @@ possibilité de mettre une valeur par défaut
 ES5 
 
 lastname = lastname || 'lol';
+
+
+
+## Babel 
+
+compile de javascript ES6+ vers ES5
+
+il verifiera au runtime, et non à la compilation
+
+
+## FLOW 
+
+permet le typage dans le javascript
+ex : 
+let maVar:number = 42;
+
+verification fait à la compilation
+
+
+## Module ES6 :
+
+// sans modules, attention aux dépendances
+<script scr="lol1.js"> </script>
+<script scr="lol2.js"> </script>
+<script scr="lol3.js"> </script>
+
+// avec module
+<script scr="main.js"> </script>
+
+
+import character from "./hodor"
+
+
+dans hodor.js
+
+export defautl character;
+
+
+sans le default si on met un autre
+import {characater, message, what} from './hodeor.js';
+
+penser à bien importer/exporter et caseSensitive
+
+### ES6 + Classes
+
+
+export efault class MaClasse;
+
+
+import MaClasse from "./chemin";
+
+si pas import par defaut, on peut mettre des alias, as
+
+deault : valeur par defaut du package, pas obligatoire. bien pour les copains
+
+
+
+
+# WEBPACK :
+
+Met tout un fichier js dasn un seul fichier JS bundle. Agrege tous les modules dans un seul fichier
+
+
+
+
