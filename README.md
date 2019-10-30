@@ -1,13 +1,14 @@
-# testReactJs
-test react js, flux
+# testFormationReact
+test react js, redux
+
+- youtube like
+
 
 ## ajout symfony React :
 
 https://stock.adobe.com/fr/search?load_type=search&native_visual_search=&similar_content_id=&is_recent_search=&search_type=usertyped&k=banquze&asset_id=215965232
 
 https://symfony.com/doc/current/quick_tour/the_architecture.html
-
-https://symfony.com/doc/4.0/frontend/encore/installation.html
 
 https://symfony.com/doc/4.0/frontend/encore/installation.html
 
